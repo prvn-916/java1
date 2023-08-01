@@ -10,7 +10,7 @@
 
 import java.util.Scanner;
 
-class problem{
+class problem4{
 
 
     public static void main(String[] args) {

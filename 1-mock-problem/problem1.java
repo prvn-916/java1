@@ -7,6 +7,7 @@ class problem1{
         System.out.println("enter number");
         int num1 = num.nextInt();
         int count = 0;
+        num.close();
         if( num1<=1){
         System.out.println("given number is not a prime number");
         }

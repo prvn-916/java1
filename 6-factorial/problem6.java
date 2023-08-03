@@ -10,6 +10,7 @@ class problem6{
         System.out.println("1");
         for (int i=2; i<=n ; i++){
         remainder = remainder*i;
+        s.close();
         }
         System.out.println("factorial value is:"+remainder);
 

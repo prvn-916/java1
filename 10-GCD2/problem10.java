@@ -7,7 +7,7 @@ class problem10{
         int a = s.nextInt();
         System.out.println("enter value of b:");
         int b = s.nextInt();
-        int rem ;
+        int rem=0 ;
         int c= 0;
         s.close();
         for(int i=1; i<=a; i++)

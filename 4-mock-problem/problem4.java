@@ -21,6 +21,7 @@ class problem4{
         int n = s.nextInt();
         int count = 0;
         int num1 =0 ;
+        s.close();
         
         System.out.println("given number:"+num);
         while(  count <= n-1 )

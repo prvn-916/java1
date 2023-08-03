@@ -5,6 +5,7 @@ class problem2{
         Scanner s = new Scanner(System.in);
         System.out.println("Enter value:");
         int num = s.nextInt();
+        s.close();
         for(int i=1; i<=num; i++)
         {
             

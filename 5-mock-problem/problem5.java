@@ -10,6 +10,7 @@ class problem5{
         Double perimeter = 2*3.14159265359*radius;
         System.out.println("Area of circle is:"+area);
         System.out.println("Perimeter of circle is:"+perimeter);
+        s.close();
     }
 }
 

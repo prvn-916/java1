@@ -6,6 +6,7 @@ class problem3{
         System.out.println("Enter a value:");
         int num = s.nextInt();
         int reverse = 0;
+        s.close();
         System.out.println("given number:"+num);
         while(num != 0)
         {

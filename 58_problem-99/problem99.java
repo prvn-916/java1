@@ -1,4 +1,4 @@
-class problem
+class problem99
 {
     public static void main(String[] args) {
         int[] num = {10,20,30,20,40,20,50,20};

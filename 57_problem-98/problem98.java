@@ -1,5 +1,5 @@
  
- public class problem {
+ public class problem98{
  public static void main(String[] args)
  {
 	int[] array_nums = {10, 20, 10, 20, 40, 13, 20};

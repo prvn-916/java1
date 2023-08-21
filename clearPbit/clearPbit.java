@@ -19,6 +19,7 @@ public class clearPbit {
             System.out.println(n);
 
         }
+        s.close();
     }
     
 }

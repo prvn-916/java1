@@ -7,7 +7,6 @@ public class ArmstrongNum {
         int n = s.nextInt();
         int  temp, sum = 0, m;
         temp = n;
-        int count = 0;
         int oderOfn = (int) Math.log10(n) + 1;
        
         while(n > 0){
@@ -20,6 +19,7 @@ public class ArmstrongNum {
         System.out.println("1");
         else
         System.out.println("0");
+        s.close();
         
     }
     

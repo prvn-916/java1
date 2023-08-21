@@ -16,15 +16,16 @@ class problem1{
         {
             if(num1%i == 0)
             count++;
+            if(count>=2)
+            {
+                break;
+            }
                
-        }
-        
+        }      
         if (count>=2)
-        System.out.println("given number is not a prime number");
+        System.out.println("NO");
          else 
-            System.out.println("give num is a prime num");
-
-            
+            System.out.println("YES");     
     }
 }
 }

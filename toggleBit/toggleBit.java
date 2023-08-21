@@ -14,6 +14,7 @@ public class toggleBit {
             long k =  (n ^ mask);
             System.out.println(k);
         }
+        s.close();
     }
     
 }

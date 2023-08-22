@@ -7,6 +7,7 @@ public class LargestNum2 {
         Scanner scanner = new Scanner(System.in);
         int s =  scanner.nextInt();
         int n = scanner.nextInt();
+        scanner.close();
         int result = 0;
         if(s > n*9)
         System.out.println("-1");

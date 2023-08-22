@@ -1,4 +1,4 @@
-
+package SumOfDigits;
 
 import java.util.Scanner;
 

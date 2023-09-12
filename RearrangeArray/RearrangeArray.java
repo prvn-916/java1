@@ -12,6 +12,7 @@ public class RearrangeArray {
         {
             array[i] = s.nextInt();
         } 
+        s.close();
         for (int i = 0; i < array.length; i++) { 
             for (int j = i+1; j < array.length; j++) { 
                 if(array[i] > array[j]) { 
@@ -21,9 +22,8 @@ public class RearrangeArray {
                } 
             } 
         } 
+        
  
- 
-     //Displaying elements of array after sorting 
      for (int i = 0; i < array.length; i++) {
         if(i<array.length-1) 
       System.out.print(array[i] + " "); 
@@ -31,6 +31,6 @@ public class RearrangeArray {
       System.out.print(array[i]);
 
     } 
-
+     
     }
 }

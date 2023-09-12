@@ -1,4 +1,4 @@
-//package ArrayIntersection;
+package ArrayIntersection;
 
 import java.util.Scanner;
 

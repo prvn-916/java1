@@ -28,6 +28,6 @@ public class SecondMax {
         } else {
             System.out.println(secondMax);
         }
-       
+       scanner.close();
     }
 }

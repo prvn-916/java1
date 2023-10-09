@@ -1,4 +1,4 @@
-//package StringFrequency;
+package StringFrequency;
 
 import java.util.Scanner;
 
